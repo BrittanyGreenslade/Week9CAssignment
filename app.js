@@ -92,7 +92,7 @@ var completeTweets = [
 var tweetsArray = completeTweets.length;
 
 //ran this 'for' loop again with the console logs for each of the keys within the different completeTweets objects
-for (var i = 3; i < tweetsArray; i++) {
+for (var i = 0; i < tweetsArray; i++) {
   // console.log(completeTweets[i].tweet);
   // console.log(completeTweets[i].username);
   // console.log(completeTweets[i].createdAt);
@@ -106,5 +106,5 @@ for (var i = 3; i < tweetsArray; i++) {
 //I made each of the variables equal to what I had  individually console-logged above, because I'm calling them again but all together within my template literal
 // A combo of you saying \n created a new line and also google, because I hated how it looked when it was all blobbed together :)
 
-//I know this is probably too many commments but it really helps me to understand it better and it will be nice to look back at if I need to
+//I know this is probably too many comments but it really helps me to understand it better and it will be nice to look back at if I need to
 //so, sorryyyyyyy
